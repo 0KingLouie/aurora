@@ -1,9 +1,9 @@
 ---
 services:
   - type: web
-    name: goatcounter
-    env: docker
-    autoDeploy: false
+    name: aurora
+    runtime: docker
+    autoDeploy: true
     envVars:
       - key: API_BASE_URL
         value: https://api.example.com
