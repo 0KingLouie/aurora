@@ -4,10 +4,10 @@ services:
     name: goatcounter
     env: docker
     autoDeploy: false
-envVars:
-  - key: API_BASE_URL
-    value: https://api.example.com
-  - key: APP_SECRET
-    generateValue: true
-  - key: STRIPE_API_KEY
-    sync: false
+    envVars:
+      - key: API_BASE_URL
+        value: https://api.example.com
+      - key: APP_SECRET
+        generateValue: true
+      - key: STRIPE_API_KEY
+        sync: false
