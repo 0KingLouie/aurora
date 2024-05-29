@@ -2,6 +2,12 @@
 services:
   - type: web
     name: goatcounter
-    runtime: docker
-    envVars:
-      - key: DB_NAME
+    env: docker
+    autoDeploy: false
+envVars:
+  - key: API_BASE_URL
+    value: https://api.example.com
+  - key: APP_SECRET
+    generateValue: true
+  - key: STRIPE_API_KEY
+    sync: false
