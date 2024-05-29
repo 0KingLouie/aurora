@@ -2,6 +2,4 @@ services:
   - type: web
     runtime: docker
     name: aurora
-    env: docker
-    dockerfilePath: ./Dockerfile
     plan: free
