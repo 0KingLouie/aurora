@@ -1,8 +1,4 @@
-#services:
-#  - type: web
-#    runtime: docker
-#    name: aurora
-#    plan: free
+---
 services:
   - type: web
     name: goatcounter
